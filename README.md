@@ -23,7 +23,7 @@ It's an excellent starting point for developers who want to add **AI-powered cha
 
 To build and run the project, ensure you have the following:
 
-- **Java 23**  
+- **Java 21**  
 - **Maven 3.6.3** or newer  
 - **Spring Boot 3.3.4**  
 - **Spring AI 1.0.0-M2**
