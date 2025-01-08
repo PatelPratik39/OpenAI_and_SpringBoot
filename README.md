@@ -62,6 +62,9 @@ The project uses the following dependencies:
 
 ---
 
+![Image](./img1.png)
+
+
 ## 🔧 Getting Started
 
 ### 1. Clone the Repository
@@ -69,4 +72,4 @@ The project uses the following dependencies:
 git clone https://github.com/PatelPratik39/OpenAI_and_SpringBoot
 cd spring-ai-chat-bot
 
-<img src="./img1.png" alt="Image"/>
+
