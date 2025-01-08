@@ -55,3 +55,18 @@ The project uses the following dependencies:
 
 ## 📂 Project Structure
 
+- **`ChatController.java`**: Handles incoming HTTP requests for chat interactions.
+- **`ChatService.java`**: Core business logic for integrating with Spring AI.
+- **`AppConfig.java`**: Configuration for Spring beans and services.
+- **`application.properties`**: Configuration file for Spring Boot settings.
+
+---
+
+## 🔧 Getting Started
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/PatelPratik39/OpenAI_and_SpringBoot
+cd spring-ai-chat-bot
+
+
