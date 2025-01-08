@@ -69,4 +69,61 @@ The project uses the following dependencies:
 git clone https://github.com/PatelPratik39/OpenAI_and_SpringBoot
 cd spring-ai-chat-bot
 
+# Getting Started
+
+To get started with this project, ensure you have **Java 23** and **Maven** installed on your system. Then, follow these steps:
+
+---
+
+## Step 1: Set up Your Anthropic API Key
+
+1. **Locate the `application.properties` file** in the `src/main/resources` directory.
+2. **Add the following configurations** to specify your API key and desired model:
+
+   ```properties
+   # Replace your_api_key with your actual Anthropic API key
+   spring.ai.anthropic.api-key=your_api_key
+
+   # Specify the AI model to use (e.g., Claude 3.5 Sonnet)
+   spring.ai.anthropic.chat.options.model=claude-3-5-sonnet-20240620
+Step 2: Build the Project
+Run the following command to build the project:
+
+bash
+Copy code
+mvn clean install
+Step 3: Run the Application
+Start the application using:
+
+bash
+Copy code
+mvn spring-boot:run
+The application will start, and you'll be able to interact with the chat endpoints.
+
+How to Run the Application
+Once the application is running, you can interact with it using the following endpoints:
+
+Traditional Chat (POST request)
+Send a POST request to initiate a traditional chat:
+
+http
+Copy code
+POST http://localhost:8080/chat?message=Your%20message%20here
+Replace Your%20message%20here with your actual message.
+Example:
+bash
+Copy code
+curl -X POST "http://localhost:8080/chat?message=Hello"
+Streaming Chat (GET request)
+Send a GET request to initiate a streaming chat:
+
+http
+Copy code
+GET http://localhost:8080/stream?message=Your%20message%20here
+Replace Your%20message%20here with your actual message.
+Example:
+bash
+Copy code
+curl "http://localhost:8080/stream?message=Hi"
+Enjoy exploring AI-powered chat with Spring AI! 🚀
 
